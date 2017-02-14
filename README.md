@@ -1,6 +1,6 @@
 #Oasis 2016 Android App
 
-Oasis is the annual cultural festival of BITS Pilani. This application will give details regarding updates and schedules of all events in OASIS 2015.
+Oasis is the annual cultural festival of BITS Pilani. This application will give details regarding updates and schedules of all events in OASIS 2016.
 
 ##Features :
 
