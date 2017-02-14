@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/events"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/events"
+            android:title="@string/schedule" />
+        <item
+            android:id="@+id/nav_profshows"
+            android:icon="@drawable/profshow"
+            android:title="Prof. Shows" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/update"
+            android:title="Updates" />
+        <item
+            android:id="@+id/nav_eventsnow"
+            android:icon="@drawable/events"
+            android:title="Events Now" />
+
+        <!--<item android:id="@+id/nav_knowyourid"-->
+            <!--android:icon="@drawable/events"-->
+            <!--android:title="Know Your ID"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_register"-->
+            <!--android:icon="@drawable/register"-->
+            <!--android:title="@string/register" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_payment"-->
+            <!--android:icon="@drawable/creditcard"-->
+            <!--android:title="@string/payment" />-->
+        <item
+            android:id="@+id/nav_registeredevents"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/registered_events" />
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/blog"
+            android:title="@string/blog" />
+        <!--<item-->
+            <!--android:id="@+id/nav_picoftheday"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Pics of the Day" />-->
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_howtoreach"
+            android:icon="@drawable/howtoreach"
+            android:title="@string/howtoreach" />
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@drawable/sponsors"
+            android:title="@string/sponsors" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact"
+            android:title="@string/contact_us" />
+        <item
+            android:id="@+id/nav_developers"
+            android:icon="@drawable/developers"
+            android:title="@string/developers" />
+
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu_main>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="send" />-->
+        <!--</menu_main>-->
+    <!--</item>-->
+
+</menu>

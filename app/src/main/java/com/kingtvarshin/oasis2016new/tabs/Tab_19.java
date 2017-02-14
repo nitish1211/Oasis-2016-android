@@ -1,0 +1,121 @@
+package com.kingtvarshin.oasis2016new.tabs;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.GestureDetector;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Toast;
+
+import com.kingtvarshin.oasis2016new.Adapter.Schedule_cardAdapter;
+import com.kingtvarshin.oasis2016new.Eventcategoryonclick;
+import com.kingtvarshin.oasis2016new.Eventonclick;
+import com.kingtvarshin.oasis2016new.R;
+import com.kingtvarshin.oasis2016new.fragments.Fragment_about;
+import com.kingtvarshin.oasis2016new.fragments.Fragment_sponsors;
+
+import java.util.ArrayList;
+
+import static android.R.attr.fragment;
+
+public class Tab_19 extends Fragment {
+
+    android.support.v4.app.Fragment fragment = null;
+    private ArrayList<String> eventname;
+    private ArrayList<String> time;
+    private ArrayList<String> location;
+    private ArrayList<String> desc;
+    private Context context;
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View rootView = inflater.inflate(R.layout.tab_19, container, false);
+
+        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.card_recycler_view_tab19);
+
+        recyclerView.setHasFixedSize(true);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
+//        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getContext(),3);
+//        RecyclerView.LayoutManager layoutManager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
+        recyclerView.setLayoutManager(layoutManager);
+
+        eventname = new ArrayList<>();
+        eventname.add("Vikrant Singh");
+        eventname.add("Aditya Raj Agarwal");
+
+        time = new ArrayList<>();
+        time.add("8:00 PM");
+        time.add("9:00 PM");
+
+        location = new ArrayList<>();
+        location.add("+91-7240105044");
+        location.add("+91-8826248944");
+
+        desc = new ArrayList<>();
+        desc.add("+91-7240105044");
+        desc.add("+91-8826248944");
+
+        RecyclerView.Adapter adapter = new Schedule_cardAdapter(getContext(),eventname,time,location);
+        recyclerView.setAdapter(adapter);
+
+        recyclerView.addOnItemTouchListener(new RecyclerView.OnItemTouchListener() {
+            GestureDetector gestureDetector = new GestureDetector(getContext(), new GestureDetector.SimpleOnGestureListener() {
+
+                @Override
+                public boolean onSingleTapUp(MotionEvent e) {
+                    return true;
+                }
+
+            });
+
+            @Override
+            public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e)
+            {
+
+
+                View child = rv.findChildViewUnder(e.getX(), e.getY());
+                if (child != null && gestureDetector.onTouchEvent(e))
+                {
+                    int position = rv.getChildAdapterPosition(child);
+//                    getActivity().setTitle(eventname.get(position));
+                    Intent i=new Intent(getActivity(),Eventonclick.class);
+                    i.putExtra("eventtitle",eventname.get(position));
+                    i.addFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
+                    startActivity(i);
+
+//                    dialContactPhone(number.get(position));
+                    Toast.makeText(getContext(), eventname.get(position), Toast.LENGTH_SHORT).show();
+                }
+
+                return true;
+            }
+
+            @Override
+            public void onTouchEvent(RecyclerView rv, MotionEvent e) {
+
+            }
+
+            @Override
+            public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
+
+            }
+        });
+
+        return rootView;
+    }
+
+//    private void dialContactPhone(final String phoneNumber) {
+//        startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phoneNumber, null)));
+//    }
+
+}

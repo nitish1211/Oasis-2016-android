@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgglow"
+    android:gravity="center"
+    android:id="@+id/bla">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Travelling by train from delhi"
+                android:id="@+id/textView9"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="from Sarai Rohilla Railway Station in New Delhi (DLI) to Loharu Station (LHU)."
+                android:id="@+id/textView10"
+                android:layout_gravity="center_horizontal|top"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_alignTop="@+id/textView10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Travelling by car/taxi from Delhi"
+                android:id="@+id/textView11"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="There are 3 routes to get here, distance is 200 or 220 km depending on route taken and time taken is 4.5 hours. in preferential order the routes are:
+        1) Delhi-Gurgaon-Dharuheda-Rewari-Mahendraghar-Loharu-Pilani.
+        2) Delhi-Gurgaon-Dharuheda-Rewari-Narnaul-Singhana-Chirawa-Pilani.
+        3) Delhi-Rohtak-Bhiwani-Loharu-Pilani."
+                android:id="@+id/textView12"
+                android:layout_gravity="center_horizontal|top"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_below="@+id/textView14"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Travelling by bus from Delhi"
+                android:id="@+id/textView13"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_below="@+id/textView15"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_alignStart="@+id/textView9"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="In case you prefer to travel by public transport, you need to catch a bus at the Inter State Bus Terminal (ISBT), Kashmiri Gate, Delhi. There are frequent buses to Pilani starting from Delhi around 5:40 AM. to 10:00 PM."
+                android:id="@+id/textView14"
+                android:layout_gravity="center_horizontal|top"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_below="@+id/textView12"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_alignStart="@+id/textView13"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Travelling by bus from Jaipur"
+                android:id="@+id/textView15"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_below="@+id/textView16"
+                android:layout_alignLeft="@+id/textView10"
+                android:layout_alignStart="@+id/textView10"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="In case you prefer to travel by public transport, you need to catch a bus from the State Bus Terminal (Sindhi Camp), Jaipur. There are frequent buses to Pilani starting from Jaipur around 4:00 AM till mid-night."
+                android:id="@+id/textView16"
+                android:layout_gravity="center_horizontal|top"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:layout_below="@+id/textView9"
+                android:layout_alignLeft="@+id/textView11"
+                android:layout_alignStart="@+id/textView11"
+                android:gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

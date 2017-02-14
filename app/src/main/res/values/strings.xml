@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Oasis2016new</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="schedule">Schedule</string>
+    <string name="prof_shows">Prof. Shows</string>
+    <string name="events">Events</string>
+    <string name="updates">Updates</string>
+    <string name="register">Register</string>
+    <string name="payment">Payment</string>
+    <string name="login">Login</string>
+    <string name="registered_events">Know Your Events</string>
+    <string name="map">Map</string>
+    <string name="howtoreach">How To Reach</string>
+    <string name="aboutdesc">\n There was a time when Gods walked the earth alongside man. \n\n Wars were fought with swords and with courage, heroes did what needed to be done, and damsels were the ones who caused all the distress. \n\n
+Sacrifices were but prayers to the gods, and there was no gesture nobler than offering your life for your beliefs.</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="blog">blog</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="developers">Developers</string>
+    <string name="title">title</string>
+    <string name="text">text</string>
+
+    <string-array name="tab1">
+        <item>Event1</item>
+        <item>Event2</item>
+        <item>Event3</item>
+        <item>Event4</item>
+        <item>Event5</item>
+        <item>Event6</item>
+    </string-array>
+</resources>

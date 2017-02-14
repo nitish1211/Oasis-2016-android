@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "729288135499",
+    "firebase_url": "https://oasis-81d10.firebaseio.com",
+    "project_id": "oasis-81d10",
+    "storage_bucket": "oasis-81d10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729288135499:android:499fa51e7ba16518",
+        "android_client_info": {
+          "package_name": "com.kingtvarshin.oasis2016new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729288135499-f19pglq57hubsi881vjnofvke1irveqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUaYPvgJpPF6xsJ425bbJNo8usxmH31qY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
