@@ -2,6 +2,11 @@
 
 Oasis is the annual cultural festival of BITS Pilani. This application will give details regarding updates and schedules of all events in OASIS 2016.
 
+
+![alt text](https://lh3.googleusercontent.com/5tVOSYUN1QwjMbBTb23xLdY5EfgkECtf_F2xoKVAIEejygFMqn3f-jOpvfs93nQO0w=h310-rw)
+![alt text](https://lh3.googleusercontent.com/6NuVeq0taA6UnuRKQ5QsP9C1gjphStB0En3AzzcSyc1UJ9goqojXxtmvQZ2P1v8m-DI=h310-rw)
+![alt text](https://lh3.googleusercontent.com/VY2RK9ENONya4gXfLc8ADtdBUiwBJ8nXt14S49oTuJGMjj-OTuqaLKRfresFUXjCcAk=h310-rw)
+
 ##Features :
 
 #####Events Now 
